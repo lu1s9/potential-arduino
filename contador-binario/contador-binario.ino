@@ -1,13 +1,15 @@
-int led1 = 8;
-int led2 = 7;
-int led3 = 4;
-int led4 = 2;
+int led1 = 12;
+int led2 = 8;
+int led3 = 7;
+int led4 = 4;
+int led5 = 2;
 
 void setup() {
     pinMode(led1, OUTPUT);
     pinMode(led2, OUTPUT);
     pinMode(led3, OUTPUT);
     pinMode(led4, OUTPUT);
+    pinMode(led5, OUTPUT);
 }
 
 void loop() {
@@ -136,4 +138,165 @@ void loop() {
     digitalWrite(led3, LOW);
     digitalWrite(led4, LOW);
     delay(retardo);
+
+    // Number 16
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 17
+    digitalWrite(led1, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 18
+    digitalWrite(led2, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led2, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 19
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 20
+    digitalWrite(led3, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led3, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 21
+    digitalWrite(led1, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 22
+    digitalWrite(led2, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 23
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 24
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 25
+    digitalWrite(led1, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 26
+    digitalWrite(led2, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led2, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 27
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 28
+    digitalWrite(led3, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led3, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 29
+    digitalWrite(led1, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 30
+    digitalWrite(led2, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
+    // Number 31
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    digitalWrite(led3, HIGH);
+    digitalWrite(led4, HIGH);
+    digitalWrite(led5, HIGH);
+    delay(retardo);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    digitalWrite(led3, LOW);
+    digitalWrite(led4, LOW);
+    digitalWrite(led5, LOW);
+    delay(retardo);
+
 }
