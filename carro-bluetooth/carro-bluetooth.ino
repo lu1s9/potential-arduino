@@ -2,6 +2,7 @@ int m1a = 10; // Motor 1 sentido horario, pin 10 arduino - pin 15 l293D
 int m1b = 9; // Motor 1 sentido antihorario, pin 9 arduino - pin 10 l293D
 int m2a = 12; // Motor 2 sentido horario, pin 12 arduino - pin 2 l293D
 int m2b = 11; // Motor 2 sentido antihorario, pin 11 arduino - pin 7 l293D
+char val;
 
 void setup() {
     pinMode(m1a, OUTPUT);
